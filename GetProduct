@@ -1,0 +1,2 @@
+Select p.Id, p.Name, c.Name From [dbo].[Product] as p
+LEFT OUTER JOIN [dbo].[Category] as c on p.CategoryId = c.Id
